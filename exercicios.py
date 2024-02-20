@@ -36,3 +36,9 @@ lista_de_dia_mes_ano = data_do_usuario.split("/")
 print(f"O elemento 1 é o: {lista_de_dia_mes_ano[0]}")
 print(f"O elemento 2 é o: {lista_de_dia_mes_ano[1]}")
 print(f"O elemento 3 é o: {lista_de_dia_mes_ano[2]}")
+
+#Type error
+
+numero_01 = int(input("Inserir um numero inteiro: "))
+numero_02 = int(input("Inserir outro numero inteiro: "))
+resultado = numero_01 // numero_02
